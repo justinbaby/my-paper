@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*
+ * 
+ * Support: #
+ * 
+ * 
+ * Style - ProductCategory
+ * Version: 3.0
+ */
+
+/* ---------- ProductCategory ---------- */
+
+div.productCategory .list {
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e8e8e8;
+}
+
+div.productCategory .list table {
+	width: 100%;
+}
+
+div.productCategory .list tr {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+div.productCategory .list tr.last {
+	border-bottom: none;
+}
+
+div.productCategory .list th {
+	width: 90px;
+	height: 60px;
+	font-weight: normal;
+	text-align: center;
+	white-space: nowrap;
+	border: 3px solid #ffffff;
+	background-color: #f4f4f4;
+}
+
+div.productCategory .list tr:hover th {
+	background-color: #e4e4e4;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	div.productCategory .list th {
+		height: 60px;
+	}
+}
+
+div.productCategory .list td a {
+	line-height: 30px;
+	padding: 0px 10px;
+	color: #666666;
+	white-space: nowrap;
+}

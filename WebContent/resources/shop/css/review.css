@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/*
+ * 
+ * Support: #
+ * 
+ * 
+ * Style - Review
+ * Version: 3.0
+ */
+
+/* ---------- Review ---------- */
+
+div.review .info {
+	width: 100%;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+div.review .info th {
+	width: 80px;
+	font-weight: normal;
+	text-align: left;
+}
+
+div.review .info .handle {
+	width: 120px;
+	text-align: right;
+}
+
+div.review .info img {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #e4e4e4;
+}
+
+div.review .info strong {
+	color: #ef0101;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.review .info del {
+	color: #a5a5a5;
+	text-decoration: line-through;
+}
+
+div.review .info div {
+	float: left;
+	margin-right: 6px;
+}
+
+div.review .content {
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	border: 1px solid #e4e4e4;
+}
+
+div.review .content table {
+	width: 100%;
+	line-height: 24px;
+}
+
+div.review .content table th {
+	padding: 6px 0px;
+	color: #888888;
+	font-weight: normal;
+	text-align: left;
+	border-bottom: 1px dotted #e4e4e4;
+}
+
+div.review .content table td {
+	width: 160px;
+	padding-left: 10px;
+	border-bottom: 1px dotted #e4e4e4;
+}
+
+div.review .content table .last th, div.review .content table .last td {
+	border-bottom: none;
+}
+
+div.review .content span {
+	color: #999999;
+}
+
+div.review .content p {
+	padding: 10px 0px;
+	color: #888888;
+}
+
+div.review .add {
+	margin-bottom: 10px;
+}
+
+div.review .add table {
+	width: 100%;
+	line-height: 24px;
+}
+
+div.review .add th {
+	width: 74px;
+	font-weight: normal;
+	text-align: right;
+}
+
+div.review .add td {
+	padding: 4px;
+}
+
+div.review .add .tips {
+	line-height: 22px;
+	padding-left: 4px;
+	color: #ff6600;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.review .add .star-rating a {
+	width: 23px;
+	height: 22px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+	text-indent: -999em;
+	background: url(../images/review.gif) -30px -30px no-repeat;
+}
+
+div.review .add .star-rating-hover a {
+	background-position: -60px -30px;
+}
+
+div.review .add .star-rating-on a {
+	background-position: -90px -30px;
+}
+
+div.review .add .captcha {
+	width: 130px;
+	text-transform: uppercase;
+	ime-mode: disabled;
+}
+
+div.review .add .captchaImage {
+	margin-left: 10px;
+	vertical-align: middle;
+	cursor: pointer;
+}

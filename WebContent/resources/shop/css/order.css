@@ -1,0 +1,491 @@
+@charset "utf-8";
+
+/*
+ * 
+ * Support: #
+ * 
+ * 
+ * Style - Order
+ * Version: 3.0
+ */
+
+/* ---------- Order ---------- */
+
+div.order .step {
+	height: 38px;
+	margin-bottom: 10px;
+}
+
+div.order .step li {
+	width: 150px;
+	height: 38px;
+	line-height: 38px;
+	float: left;
+	padding-left: 50px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+
+div.order .step .current {
+	color: #ffffff;
+}
+
+div.order .step1 {
+	background: url(../images/cart.gif) 0px 0px no-repeat;
+}
+
+div.order .step2 {
+	background: url(../images/cart.gif) 0px -38px no-repeat;
+}
+
+div.order .step3 {
+	background: url(../images/cart.gif) 0px -76px no-repeat;
+}
+
+div.order .info .receiver {
+	margin-bottom: 10px;
+	border-top: solid 1px #e8e8e8;
+}
+
+div.order .info .receiver .title {
+	line-height: 36px;
+	padding-left: 6px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.order .info .receiver li {
+	width: 219px;
+	height: 74px;
+	float: left;
+	padding: 5px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	overflow: hidden;
+	cursor: pointer;
+	border: solid 1px #e4e4e4;
+}
+
+div.order .info .receiver li:hover {
+	border: solid 1px #fee580;
+	background-color: #fffcee;
+}
+
+div.order .info .receiver li.selected {
+	border: solid 1px #fee580;
+	background: url(../images/cart.gif) right bottom no-repeat #fff5cc;
+}
+
+div.order .info .receiver li div {
+	line-height: 22px;
+	color: #888888;
+}
+
+div.order .info .receiver li strong {
+	color: #444444;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+div.order .info .receiver li span {
+	line-height: 18px;
+	color: #666666;
+}
+
+div.order .info .receiver p {
+	clear: both;
+}
+
+div.order .info .newReceiver {
+	width: 950px;
+	position: absolute;
+	z-index: 100;
+	border: solid 1px #c1c1c1;
+	background-color: #ffffff;
+}
+
+div.order .info .newReceiver th {
+	font-weight: normal;
+	text-align: right;
+	background-color: #ffffff;
+}
+
+div.order .info table {
+	width: 100%;
+	margin-bottom: 10px;
+	border: solid 1px #e6e4e3;
+}
+
+div.order .info th {
+	line-height: 36px;
+	padding: 0px 6px;
+	font-weight: normal;
+	text-align: left;
+	background-color: #fafafa;
+}
+
+div.order .info td {
+	line-height: 30px;
+	padding: 6px;
+}
+
+div.order .info .select {
+	margin-bottom: 8px;
+}
+
+div.order .info .select dt {
+	line-height: 36px;
+	padding-left: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	border-top: solid 1px #e8e8e8;
+}
+
+div.order .info .select dd {
+	padding: 4px;
+	margin-bottom: 2px;
+	border-top: solid 1px #f2f2f2;
+	border-right: solid 1px #ffffff;
+	border-bottom: solid 1px #ffffff;
+	border-left: solid 1px #ffffff;
+}
+
+div.order .info .select dd label {
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	padding: 8px;
+	cursor: pointer;
+	border: solid 3px #ffffff;
+}
+
+div.order .info .select dd:hover {
+	padding: 0px;
+	border: solid 5px #f3f3f3;
+}
+
+div.order .info .select dd:hover label {
+	border: solid 3px #dddddd;
+}
+
+div.order .info .select dd.selected {
+	padding: 0px;
+	border: solid 5px #fff0db;
+}
+
+div.order .info .select dd.selected label {
+	border: solid 3px #ffcd88;
+}
+
+div.order .info .select dd input {
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 6px;
+	margin-top: 9px;
+}
+
+div.order .info .select dd span {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	color: #888888;
+}
+
+div.order .info .select dd em {
+	width: 30px;
+	height: 30px;
+	display: block;
+	float: left;
+	border: solid 1px #e5e5e5;
+}
+
+div.order .info .select dd strong {
+	width: 100px;
+	height: 30px;
+	display: block;
+	float: left;
+	padding: 0px 8px;
+	font-weight: normal;
+	overflow: hidden;
+	border: solid 1px #e5e5e5;
+	background-color: #f8f8f8;
+}
+
+div.order .info .product td {
+	padding: 6px;
+	color: #666666;
+	border: solid 1px #f1f1f1;
+}
+
+div.order .info .product img {
+	width: 60px;
+	height: 60px;
+}
+
+div.order .info .memo {
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+div.order .info .memo dt {
+	line-height: 20px;
+	float: left;
+	margin-right: 10px;
+	color: #999999;
+}
+
+div.order .info .memo dd {
+	float: left;
+}
+
+div.order .info .memo input {
+	width: 177px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #cccccc;
+}
+
+div.order .info .coupon {
+	height: 24px;
+	margin-bottom: 10px;
+}
+
+div.order .info .coupon dt {
+	line-height: 24px;
+	float: left;
+	margin-right: 10px;
+	color: #999999;
+}
+
+div.order .info .coupon dd {
+	width: 180px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	position: relative;
+	padding: 2px 0px;
+	margin-bottom: 10px;
+	background: url(../images/order.gif) 0px 0px no-repeat;
+}
+
+div.order .info .coupon span {
+	width: 122px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0px 4px;
+	display: none;
+	position: absolute;
+	color: #ff6600;
+	overflow: hidden;
+}
+
+div.order .info .coupon input {
+	width: 122px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0px 4px;
+	margin: 0px;
+	position: absolute;
+	color: #888888;
+	outline: none;
+	border: none;
+	background: none;
+}
+
+div.order .info .coupon button {
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin: 0px;
+	font-size: 12px;
+	position: relative;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	border: none;
+	background: none;
+}
+
+div.order .info .statistic {
+	line-height: 30px;
+	text-align: right;
+}
+
+div.order .info .statistic span {
+	margin-left: 10px;
+}
+
+div.order .info .statistic em {
+	color: #ff6600;
+	font-style: normal;
+}
+
+div.order .info .statistic strong {
+	color: #ef0101;
+	font-size: 14px;
+}
+
+div.order .info .bottom {
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	text-align: right;
+	overflow: hidden;
+	border: 1px dotted #e4e4e4;
+	background-color: #fdfdfd;
+}
+
+div.order .info .back {
+	margin-right: 10px;
+}
+
+div.order .info .submit {
+	padding: 14px;
+	color: #ffffff;
+	background-color: #b31d04;
+}
+
+div.order .dialog {
+	width: 300px;
+	height: 200px;
+	line-height: 24px;
+	padding: 10px 60px;
+	margin-left: -216px;
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	z-index: 100;
+	color: #888888;
+	border: solid 6px #ededed;
+	background-color: #ffffff;
+}
+
+div.order .dialog dt {
+	line-height: 60px;
+	text-align: center;
+	color: #000000;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+}
+
+div.order .dialog div {
+	height: 34px;
+	padding: 10px 0px;
+}
+
+div.order .dialog div a {
+	height: 34px;
+	line-height: 34px;
+	display: inline-block;
+	display: -moz-inline-stack;
+	float: left;
+	padding: 0px 14px;
+	margin-right: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	background: url(../images/order.gif) -10px -30px no-repeat;
+}
+
+div.order .dialog div a:hover {
+	color: #ffead0;
+}
+
+div.order .result {
+	padding: 20px;
+	margin-bottom: 10px;
+	border: 1px solid #fecf97;
+	background-color: #fef7e4;
+}
+
+div.order .result .title {
+	height: 52px;
+	line-height: 52px;
+	color: #cc0000;
+	text-align: center;
+	font-size: 24px;
+	font-family: "Microsoft YaHei";
+}
+
+div.order .result table {
+	width: 100%;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+div.order .result th {
+	text-align: left;
+}
+
+div.order .result td {
+	padding: 0px 4px;
+	border: 1px solid #dbdbdb;
+	background-color: #fdf9ee;
+}
+
+div.order .result strong {
+	color: #ff6600;
+	font-weight: bold;
+}
+
+div.order .result .paymentPlugin td {
+	padding: 4px;
+	border: none;
+	background-color: #fef7e4;
+}
+
+div.order .result .paymentPlugin input {
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 6px;
+	margin-top: 9px;
+}
+
+div.order .result .paymentPlugin em {
+	width: 100px;
+	height: 30px;
+	display: block;
+	float: left;
+	padding: 2px 8px;
+	font-style: normal;
+	overflow: hidden;
+	cursor: pointer;
+	border: solid 1px #dddddd;
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+div.order .result .paymentPlugin em:hover {
+	border: solid 1px #ffaa33;
+}
+
+div.order .result .paymentButton {
+	width: 150px;
+	height: 37px;
+	line-height: 37px;
+	display: inline-block;
+	display: -moz-inline-stack;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+	overflow: visible;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	border: none;
+	background: url(../images/order.gif) 0px -30px no-repeat;
+}
+
+div.order .result .paymentButton:hover {
+	color: #ffead0;
+}

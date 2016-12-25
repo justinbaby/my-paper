@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*
+ * 
+ * Support: #
+ * 
+ * 
+ * Style - Promotion
+ * Version: 3.0
+ */
+
+/* ---------- Promotion ---------- */
+
+div.promotion .content {
+	line-height: 30px;
+}
+
+div.promotion .content .title {
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.promotion .content .info {
+	line-height: 30px;
+	margin-bottom: 10px;
+	color: #787878;
+	text-align: center;
+	border-bottom: solid 1px #f1f1f1;
+}

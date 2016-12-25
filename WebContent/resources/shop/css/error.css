@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/*
+ * 
+ * Support: #
+ * 
+ * 
+ * Style - Error
+ * Version: 3.0
+ */
+
+/* ---------- Error ---------- */
+
+div.error .main {
+	height: 220px;
+	padding: 80px 0px 0px 400px;
+	background: url(../images/error.jpg) 0px 0px no-repeat;
+}
+
+div.error .main dt {
+	line-height: 40px;
+	color: #fe6200;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+}
+
+div.error .main dd {
+	line-height: 26px;
+}

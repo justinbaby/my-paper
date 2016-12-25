@@ -1,0 +1,514 @@
+@charset "utf-8";
+
+/*
+ * 
+ * Support: #
+ * 
+ * 
+ * Style - Member
+ * Version: 3.0
+ */
+
+/* ---------- Member ---------- */
+
+div.member div.info {
+	margin-bottom: 10px;
+}
+
+div.member div.info .top {
+	height: 10px;
+	overflow: hidden;
+	background: url(../images/member.gif) 0px 0px no-repeat;
+}
+
+div.member div.info .content {
+	border-left: 1px solid #d4d4d4;
+	border-right: 2px solid #f0f0f0;
+}
+
+div.member div.info .content p {
+	line-height: 26px;
+	padding-left: 10px;
+	border-right: 1px solid #d4d4d4;
+}
+
+div.member div.info .bottom {
+	height: 20px;
+	overflow: hidden;
+	background: url(../images/member.gif) 0px -30px no-repeat;
+}
+
+div.member div.menu {
+	margin-bottom: 10px;
+}
+
+div.member div.menu .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 12px;
+	font-weight: bold;
+	background: url(../images/member.gif) 0px 0px no-repeat;
+}
+
+div.member div.menu .content {
+	border-left: 1px solid #d4d4d4;
+	border-right: 2px solid #f0f0f0;
+}
+
+div.member div.menu dl {
+	line-height: 30px;
+	padding-left: 10px;
+	border-right: 1px solid #d4d4d4;
+	background: url(../images/member.gif) right -150px no-repeat;
+}
+
+div.member div.menu dt {
+	padding-top: 4px;
+	color: #999999;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+
+div.member div.menu dd .current {
+	font-weight: bold;
+}
+
+div.member div.menu .bottom {
+	height: 30px;
+	background: url(../images/member.gif) 0px -30px no-repeat;
+}
+
+div.member div.list {
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e4e4e4;
+}
+
+div.member div.list .bar {
+	height: 30px;
+	padding: 6px 0px 5px 0px;
+	border-top: 1px solid #e4e4e4;
+}
+
+div.member div.list .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 14px;
+	font-weight: bold;
+	background: url(../images/member.gif) 0px -60px no-repeat;
+}
+
+div.member div.list .title span {
+	color: #999999;
+}
+
+div.member div.list .thumbnail {
+	width: 60px;
+	height: 60px;
+}
+
+div.member div.list p {
+	padding: 10px 0px;
+	color: #999999;
+	text-align: center;
+}
+
+div.member table.list {
+	width: 100%;
+}
+
+div.member table.list th {
+	height: 30px;
+	padding: 0px 4px;
+	color: #888888;
+	font-weight: normal;
+	text-align: left;
+	white-space: nowrap;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+	background: url(../images/member.gif) 0px -120px repeat-x;
+}
+
+div.member table.list td {
+	line-height: 28px;
+	padding: 6px 6px 6px 0px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+div.member table.list .last td {
+	border-bottom: none;
+}
+
+div.member div.input {
+	padding: 0px 10px 10px 10px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e4e4e4;
+}
+
+div.member div.input .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 14px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #e4e4e4;
+	background: url(../images/member.gif) 0px -60px no-repeat;
+}
+
+div.member table.input {
+	width: 100%;
+}
+
+div.member table.input th {
+	width: 100px;
+	line-height: 30px;
+	padding: 4px 10px 4px 0px;
+	font-weight: normal;
+	text-align: right;
+	color: #888888;
+	white-space: nowrap;
+}
+
+div.member table.input td {
+	line-height: 30px;
+	padding: 4px;
+}
+
+div.member .index .top {
+	width: 708px;
+	padding: 10px 0px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	border: 1px solid #f0f0f0;
+	background-color: #fcfcfc;
+}
+
+div.member .index .top div {
+	width: 800px;
+}
+
+div.member .index .top ul {
+	width: 330px;
+	float: left;
+	padding: 0px 20px;
+	border-right: 1px solid #f0f0f0;
+}
+
+div.member .index .top li {
+	line-height: 26px;
+	color: #999999;
+}
+
+div.member .index .top strong {
+	color: #cc0000;
+	font-weight: bold;
+}
+
+div.member .index .top em {
+	color: #ff6600;
+	font-style: normal;
+}
+
+div.member .index .top a {
+	margin: 0px 10px;
+}
+
+div.member .order .dialog {
+	width: 500px;
+	height: 280px;
+	line-height: 24px;
+	padding: 0px 10px;
+	margin-left: -266px;
+	display: none;
+	position: fixed;
+	_position: absolute;
+	top: 25%;
+	_top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(25 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + "px");
+	left: 50%;
+	z-index: 100;
+	color: #888888;
+	border: solid 6px #ededed;
+	background-color: #ffffff;
+}
+
+div.member .order .dialog .close {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	background: url(../images/member.gif) 0px -90px no-repeat;
+}
+
+div.member .order .dialog .close:hover {
+	background-position: -30px -90px;
+}
+
+div.member .order .dialog ul {
+	height: 30px;
+	line-height: 30px;
+	clear: both;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+div.member .order .dialog li {
+	width: 140px;
+	float: left;
+}
+
+div.member .order .dialog .deliveryContent {
+	height: 240px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+div.member .order .dialog table {
+	width: 100%;
+}
+
+div.member .order .dialog table th {
+	width: 140px;
+	font-weight: normal;
+	text-align: left;
+}
+
+div.member .order .top {
+	height: 80px;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	border: 1px solid #eed97c;
+	background-color: #fffceb;
+}
+
+div.member .order .top span {
+	width: 240px;
+	height: 26px;
+	line-height: 26px;
+	display: block;
+	float: left;
+	padding: 10px 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.member .order .top .handle {
+	width: 180px;
+	float: right;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+div.member .order .top strong {
+	font-size: 14px;
+	color: #cc0000;
+	font-weight: bold;
+}
+
+div.member .order .top .tips {
+	height: 30px;
+	line-height: 30px;
+	clear: both;
+	color: #888888;
+	border-top: 1px dotted #eed97c;
+}
+
+div.member .order .info {
+	width: 100%;
+	margin-bottom: 10px;
+	border: 1px solid #e9e9e9;
+}
+
+div.member .order .info th {
+	width: 120px;
+	line-height: 28px;
+	padding-right: 10px;
+	color: #888888;
+	font-weight: normal;
+	text-align: right;
+}
+
+div.member .order .info td {
+	line-height: 28px;
+}
+
+div.member .order .orderItem {
+	width: 100%;
+	border: 1px solid #e9e9e9;
+}
+
+div.member .order .orderItem th {
+	line-height: 30px;
+	padding-left: 10px;
+	color: #555555;
+	font-weight: normal;
+	text-align: left;
+	background-color: #f6f6f6;
+}
+
+div.member .order .orderItem td {
+	line-height: 28px;
+	padding-left: 10px;
+}
+
+div.member .message {
+	padding: 0px 10px 10px 10px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e9e9e9;
+}
+
+div.member .message .title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 14px;
+	margin-bottom: 6px;
+	font-weight: bold;
+	border-bottom: 1px solid #e9e9e9;
+	background: url(../images/member.gif) 0px -60px no-repeat;
+}
+
+div.member .message dl {
+	max-height: 600px;
+	_height: expression(document.body.clientWidth >= 600 ? "600px": "auto");
+	padding: 0px 10px;
+	overflow: auto;
+	position: relative;
+}
+
+div.member .message dt strong {
+	line-height: 36px;
+	margin-right: 10px;
+	color: #0066cc;
+}
+
+div.member .message dt span {
+	line-height: 36px;
+	color: #bbbbbb;
+}
+
+div.member .message dd {
+	padding: 10px 0px;
+	color: #666666;
+	overflow: hidden;
+	*zoom: 1;
+	word-wrap: break-word;
+	word-break: normal;
+}
+
+div.member .message dd span {
+	line-height: 26px;
+	float: right;
+	clear: both;
+	padding: 0px 10px;
+	color: #bbbbbb;
+}
+
+div.member .message dd div.left {
+	float: left;
+	position: relative;
+	border: 1px solid #d8e1ea;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 1px 2px #e0e0e0;
+	-moz-box-shadow: 0px 1px 2px #e0e0e0;
+	box-shadow: 0px 1px 2px #e0e0e0;
+	background-color: #f8fdff;
+	background-image: -webkit-gradient(linear, center bottom, center top, from(#ecf9ff), to(#f8fdff));
+	background-image: -moz-linear-gradient(center bottom, #ecf9ff, #f8fdff);
+	background-image: -o-linear-gradient(center bottom, #ecf9ff, #f8fdff);
+	background-image: linear-gradient(center bottom, #ecf9ff, #f8fdff);
+}
+
+div.member .message dd div.left .arrow {
+	width: 14px;
+	height: 8px;
+	position: absolute;
+	left: 20px;
+	top: -8px;
+	background: url(../images/message.gif) 0px 0px no-repeat;
+}
+
+div.member .message dd div.right {
+	float: right;
+	position: relative;
+	border: 1px solid #e0e0e0;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 1px 2px #e0e0e0;
+	-moz-box-shadow: 0px 1px 2px #e0e0e0;
+	box-shadow: 0px 1px 2px #e0e0e0;
+	background-color: #fcfcfc;
+	background-image: -webkit-gradient(linear, center bottom, center top, from(#fafafa), to(#ffffff));
+	background-image: -moz-linear-gradient(center bottom, #fafafa, #ffffff);
+	background-image: -o-linear-gradient(center bottom, #fafafa, #ffffff);
+	background-image: linear-gradient(center bottom, #fafafa, #ffffff);
+}
+
+div.member .message dd div.right .arrow {
+	width: 14px;
+	height: 8px;
+	position: absolute;
+	right: 20px;
+	bottom: -8px;
+	_bottom: -14px;
+	background: url(../images/message.gif) -30px 0px no-repeat;
+}
+
+div.member .message dd p {
+	line-height: 24px;
+	min-width: 300px;
+	max-width: 600px;
+	padding: 6px;
+	color: #888888;
+}
+
+div.member .deposit .paymentPlugin {
+	padding: 10px;
+	border: solid 4px #e4e4e4;
+}
+
+div.member .deposit .paymentPlugin div {
+	float: left;
+	margin: 4px 14px;
+}
+
+div.member .deposit .paymentPlugin input {
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 6px;
+	margin-top: 9px;
+}
+
+div.member .deposit .paymentPlugin em {
+	width: 100px;
+	height: 30px;
+	display: block;
+	float: left;
+	padding: 2px 8px;
+	color: #666666;
+	font-style: normal;
+	overflow: hidden;
+	cursor: pointer;
+	border: solid 1px #dddddd;
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+div.member .deposit .paymentPlugin em:hover {
+	border: solid 1px #ffaa33;
+}

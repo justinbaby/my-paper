@@ -19,5 +19,7 @@ http://localhost:8080/easy-shopping/admin/
 > 1.进入后台管理页面并登录。
 
 > 2.进入如下所示选项，点击“确定”来清除之前的缓存。
+![cmd-markdown-logo](http://imgsrc.baidu.com/forum/w%3D580/sign=a7c46a2882d4b31cf03c94b3b7d6276f/ecd45cec8a1363278ff9b358988fa0ec08fac756.jpg)
+
 
 > 3.以上步骤完成后，商城可正常访问。

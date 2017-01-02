@@ -18,7 +18,8 @@ esay-shopping
 
 
 系统部分：
-1.用eclipse导入项目。
+
+>1.用eclipse导入项目。
 
 2.在src目录下的easyshopping.properties文件中修改数据库连接名和用户名及密码。
 
@@ -32,7 +33,7 @@ http://localhost:8080/easy-shopping/admin/
 
 系统首次使用说明：
 
-1.进入后台管理页面并登录。
+>1.进入后台管理页面并登录。
 
 
 

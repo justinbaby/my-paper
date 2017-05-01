@@ -22,8 +22,11 @@ http://localhost:8080/easy-shopping/admin/
 ![cmd-markdown-logo](http://imgsrc.baidu.com/forum/w%3D580/sign=a7c46a2882d4b31cf03c94b3b7d6276f/ecd45cec8a1363278ff9b358988fa0ec08fac756.jpg)
 
 
-![首页]
-(http://p5.qhimg.com/t01493751ec7b29f532.png)
+
+
+
+![Aaron Swartz](http://p5.qhimg.com/t01493751ec7b29f532.png)
+
 
 
 > 3.以上步骤完成后，商城可正常访问。
